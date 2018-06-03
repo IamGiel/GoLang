@@ -27,5 +27,9 @@ func main(){
 
 	// fmt.Println(sum) // output 12
 
+	//========Arrays=======
 
+		var a [5]int
+		fmt.Println(a); // output [0 0 0 0 0]
 }
+
