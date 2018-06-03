@@ -5,7 +5,8 @@ import (
 )
 
 func main(){
-	// fmt.Println("Hello 🌎");
+	// fmt.Println("Hello 🌎"); 
+	// type: go run hello.go in the terminal
 
 	//===============
 
@@ -29,7 +30,17 @@ func main(){
 
 	//========Arrays=======
 
-		var a [5]int
-		fmt.Println(a); // output [0 0 0 0 0]
+		// var a [5]int // created [0 0 0 0 0]
+		// a[2] = 7 // created [0 0 7 0 0]
+
+		// fmt.Println(a); // output [0 0 7 0 0]
+
+		//shorthand 
+		a := [5]int{5,4,3,2,1}
+
+		fmt.Println(a) // output [5 4 3 2 1]
+
+
+
 }
 
